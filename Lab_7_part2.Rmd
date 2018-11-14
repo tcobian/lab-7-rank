@@ -10,3 +10,18 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
  
 Hi Kal Lai this is Tyler, this is the second half of the lab rank based tests.
+
+
+```{r}
+library(tidyverse)
+
+kermit<-read_csv("kermit.csv")
+
+kermit_hist<-ggplot(kermit, aes(x=Score.pre)) +
+  geom_histogram()+
+  facet_wrap(~Gender)
+
+kermit_hist
+
+```
+
