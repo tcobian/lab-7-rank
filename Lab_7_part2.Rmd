@@ -1,0 +1,12 @@
+---
+title: "Lab_#7_Tyler"
+author: "Tyler Cobian"
+date: "11/14/2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+ 
+Hi Kal Lai this is Tyler, this is the second half of the lab rank based tests.
